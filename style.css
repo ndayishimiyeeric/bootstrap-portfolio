@@ -1,0 +1,26 @@
+img {
+  max-height: 200px;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+}
+
+.headline {
+  background-image: url(./img/Header-llustration-desktop.svg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.works {
+  margin-top: 100px;
+}
+
+.about-us {
+  background-image: url(img/desktoptopleft.svg), url(img/desktoptopright.svg);
+  background-position: 0 130px, top right;
+  background-repeat: no-repeat;
+}
